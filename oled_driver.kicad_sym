@@ -148,7 +148,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 13.97 -10.16 180)
+				(at 13.97 -2.54 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -158,24 +158,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 13.97 -5.08 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -472,7 +454,7 @@
 				)
 			)
 			(pin power_out line
-				(at 13.97 -2.54 180)
+				(at 13.97 2.54 180)
 				(length 2.54)
 				(name "VCOMH"
 					(effects
@@ -490,7 +472,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 29.21 270)
+				(at -1.27 29.21 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -518,6 +500,26 @@
 					)
 				)
 				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SSD1309_24-Pin_Connector_1_0"
+			(pin power_in line
+				(at 1.27 29.21 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1335,24 +1337,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 5.08 180)
-				(length 2.54)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin no_connect line
 				(at 12.7 -5.08 180)
 				(length 2.54)
@@ -1564,6 +1548,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
