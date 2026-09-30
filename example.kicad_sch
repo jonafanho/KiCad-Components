@@ -5186,7 +5186,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 96.52) (xy 171.45 96.52)
+			(xy 104.14 81.28) (xy 105.41 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5203,16 +5203,6 @@
 			(type default)
 		)
 		(uuid "39f42a5c-db5a-480d-ab8d-24ab1c4c5163")
-	)
-	(wire
-		(pts
-			(xy 147.32 96.52) (xy 157.48 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a5c4e48-ec41-4045-9cb8-723fef082b16")
 	)
 	(wire
 		(pts
@@ -5423,6 +5413,16 @@
 			(type default)
 		)
 		(uuid "58af1672-e207-4b8d-8128-48a1741b0df1")
+	)
+	(wire
+		(pts
+			(xy 104.14 83.82) (xy 116.84 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5caae759-673c-4c71-bcab-0d3eef10dd1b")
 	)
 	(wire
 		(pts
@@ -6036,7 +6036,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 96.52) (xy 171.45 95.25)
+			(xy 105.41 81.28) (xy 105.41 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7490,13 +7490,14 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 50.8 105.41 0)
+			(at 53.34 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7568,14 +7569,13 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 45.72 109.2199 0)
+			(at 48.26 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8049,13 +8049,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 177.8 0)
+			(at 27.94 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9346,13 +9347,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 177.8 0)
+			(at 109.22 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10411,7 +10413,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 171.45 95.25 0)
+		(at 105.41 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10422,7 +10424,7 @@
 		(fields_autoplaced yes)
 		(uuid "b67dbd4b-d874-43c3-8f9d-8f0be7285cc9")
 		(property "Reference" "#PWR014"
-			(at 171.45 99.06 0)
+			(at 105.41 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10433,7 +10435,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 173.99 93.9799 0)
+			(at 107.95 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10444,7 +10446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 95.25 0)
+			(at 105.41 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10455,7 +10457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 95.25 0)
+			(at 105.41 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10466,7 +10468,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 171.45 95.25 0)
+			(at 105.41 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11339,8 +11341,8 @@
 		)
 	)
 	(sheet
-		(at 157.48 93.98)
-		(size 12.7 5.08)
+		(at 91.44 78.74)
+		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11355,7 +11357,7 @@
 		)
 		(uuid "bbac4116-0cfc-4642-93d0-3db9c11a5fb8")
 		(property "Sheetname" "MT3608"
-			(at 157.48 93.2684 0)
+			(at 91.44 78.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11366,7 +11368,7 @@
 			)
 		)
 		(property "Sheetfile" "mt3608.kicad_sch"
-			(at 157.48 99.6446 0)
+			(at 91.44 86.9446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11377,17 +11379,17 @@
 			)
 		)
 		(pin "EN" input
-			(at 157.48 96.52 180)
+			(at 104.14 83.82 0)
 			(uuid "60125200-e428-474e-9da1-5710f0f5f969")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "12V" output
-			(at 170.18 96.52 0)
+			(at 104.14 81.28 0)
 			(uuid "b96b758a-90d2-461d-905a-25e7ae425a2f")
 			(effects
 				(font
